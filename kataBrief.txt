@@ -1,0 +1,15 @@
+1: Create a client(worker) and server, send "Hello World" from one side to the other
+2: As before, but send it through a work queue. When the messages are sent, '.' after
+the args count as how long the task will take in seconds ie "hello..." = 3 seconds.
+Make the worker print when its finished the task and the message its received. 
+3: Ensure previous is Round Robin style dispatch
+4: As before, but turn on Message Ackowledgements. Explain in the code comments what
+message ackknowledgements are.
+5: As before, but with message durability.
+6: As before, but with message persistance.
+7: Explore fair dispatch using prefretch.
+8: Using previous code, create a publish/subscribe pattern. Creating a fanout exchange.
+Use a temporary queue in this exchange. Bind the queue.
+9: Routing/ Direct exchange/ Multiple Bindings
+10: Create a Topic exchange. Explore routing keys.
+11: RPC (Remote Procedure Call). Correlation ID. Fibbonaci Function.
